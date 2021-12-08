@@ -1,0 +1,14 @@
+$blue:#A2CDF2;
+$color2:#38db96;
+
+$body-bg: $blue;
+
+@import "_tabla";
+@import "_imagenes";
+@import "_footer";
+@import "_header";
+@import "_configuracion";
+@import "_formulario";
+@import "_video";
+@import "_lugares";
+@import "../node_modules/bootstrap/scss/bootstrap";

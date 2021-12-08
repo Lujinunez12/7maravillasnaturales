@@ -1,0 +1,30 @@
+.main__h2--formato{
+    color:#4BB2F2;
+    text-decoration:underline;
+    text-align:center;
+    font-size: 45px;
+    padding: 30px;
+    font-family: 'Caveat', cursive;
+}
+
+.main__h3--estilo{
+    color:#027373;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 20px;
+}
+
+$color:rgb(0, 255, 42);
+
+@for $i from 1 to 8 {
+
+    .infoLugar-#{$i} {
+        color:#324001;
+        font-family: 'Cinzel', serif;
+        padding: 15px;
+        background-color: lighten($color,$i*5);
+
+}
+
+}

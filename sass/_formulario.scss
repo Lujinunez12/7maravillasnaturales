@@ -1,0 +1,38 @@
+
+fieldset{
+    margin: 10px;
+    height: auto;
+    width: 20%;
+}
+legend{
+    color:brown;
+    margin: 10px;
+
+}
+
+form{
+    
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    
+}
+label{
+    color:#15297c;
+    margin: 10px;
+}
+
+textarea{
+    margin: 10px;
+}
+
+input{
+    margin: 2px;
+}
+
+#reset{
+    margin: 10px;
+}
