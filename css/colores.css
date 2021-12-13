@@ -53,22 +53,9 @@
   font-size: 40px;
   padding: 10px; }
 
-.header__lista--configuracion {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-  gap: 30px;
-  font-size: 25px;
-  padding-right: 10px;
-  -webkit-transform: translateX(0);
-  -webkit-transition-duration: 0.3s; }
-
-ul li a {
-  text-decoration: none;
-  color: #362894; }
-  ul li a:hover {
-    color: yellow; }
+h1, .h1 {
+  color: red;
+  padding-top: 1rem; }
 
 * {
   margin: 0;
@@ -78,21 +65,18 @@ ul li a {
 .body {
   background-color: #A2CDF2; }
 
-fieldset {
-  margin: 10px;
-  height: auto;
-  width: 20%; }
-
 legend {
   color: brown;
-  margin: 10px; }
+  margin: 10px;
+  text-align: center; }
 
 form {
   border: 3px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh; }
+  min-height: 100vh;
+  background-color: white; }
 
 label {
   color: #15297c;

@@ -1,12 +1,9 @@
 
-fieldset{
-    margin: 10px;
-    height: auto;
-    width: 20%;
-}
+
 legend{
     color:brown;
     margin: 10px;
+    text-align: center;
 
 }
 
@@ -17,7 +14,8 @@ form{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-
+    background-color: white;
+    
     
 }
 label{

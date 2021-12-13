@@ -16,29 +16,7 @@
     padding: 10px;
 }
 
-.header__lista--configuracion{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    gap: 30px;
-    font-size:25px;
-    padding-right: 10px;
-    -webkit-transform: translateX(0);
-    -webkit-transition-duration: 0.3s;
-
+h1{
+    color:red;
+    padding-top: 1rem;
 }
-
-ul{
-    li{
-        a{
-            text-decoration: none;
-            color: rgb(54, 40, 148);
-            &:hover{
-                color: yellow;
-            }
-        }
-    }
-} 
-
-
