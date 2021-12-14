@@ -24,6 +24,16 @@
   color: darkorchid;
   font-size: 25px; }
 
+@media (max-width: 600px) {
+  #galeria {
+    width: 300px;
+    height: 300px;
+    padding-right: 10px;
+    margin-left: -10px; }
+  li {
+    font-size: 18px;
+    padding-top: 20px; } }
+
 .footer--formato {
   background-color: #38db96;
   display: flex;
@@ -54,7 +64,7 @@
   padding: 10px; }
 
 h1, .h1 {
-  color: red;
+  color: #0084ff;
   padding-top: 1rem; }
 
 * {
