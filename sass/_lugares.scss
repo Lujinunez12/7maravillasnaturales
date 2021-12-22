@@ -41,8 +41,7 @@ aside {
 }
 
 aside .titulo {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: normal;
+
 	font-size: 35px;
 	margin-bottom: 20px;
 	color: #4BB2F2;
@@ -60,4 +59,16 @@ aside .indice a {
 	margin: auto;
 	display: flex;
     text-align: center;
+}
+
+@media(max-width: 700px){
+    aside{
+        position:relative;
+        width: 100%;
+        margin: auto;
+
+    }
+    .pagina{
+        flex-wrap: wrap;
+    }
 }
